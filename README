@@ -1,0 +1,15 @@
+-----------------  BOT TWITTER  -----------------------
+  -- Mise en chauffe --
+    1) Initialisation des gem utilisées dans le code
+    2) Configuration des clés de securités / token par un fichier app.ini, stocké dans un fichier .gitignore pour cacher les clés secrêtes au public
+    3) Configuration du Client comme un nouvel objet de Twitter::REST::Client qui prend les config en paramètre
+    4) Code qui envoi un tweet ! :)
+
+  -- Twitter Bot --
+    1) Appel des différentes gem utilisées
+    2) def de la méthode follow prenant en compte un nombre non défini d'abo
+       follow les users passés en paramètre
+    3) Appel de la fonction follow
+    4) def de la fonction tweet qui génère des tweets en marquant des personnes données.
+      ** Je n'ai pas souhaité participer au harcelement de ces pauvres journalistes
+      *** Le code fonctionne avec un echantillon des personnes de mon groupe
